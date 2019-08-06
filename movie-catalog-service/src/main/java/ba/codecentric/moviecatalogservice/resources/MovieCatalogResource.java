@@ -16,7 +16,7 @@ public class MovieCatalogResource {
     public List<CatalogItem> getCatalog(@PathVariable("userId")String userId) {
 
         return Collections.singletonList(
-                new CatalogItem("Transformes", "test", 4)
+                new CatalogItem("Transformers", "test", 4)
         );
     }
 }
